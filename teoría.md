@@ -12,3 +12,23 @@ Recuperar un documento, una carpeta, o un proyecto en un momento concreto de su 
 Mantener un cierto control de los cambios que se realizan sobre documentos, archivos o proyectos
 que comparten varias personas o un equipo de trabajo, por lo que es útil cuando se hace necesario
 saber qué cambios se hacen, quién los hace y cuándo se realizan.
+2. Terminología
+Existen una serie de términos que se utilizan y son comunes para la mayoría de las herramientas de
+control de versiones
+• Repositorio: Lugar donde se almacenan todos los datos y los cambios.
+• Revisión o versión: Una revisión es una versión concreta de los datos almacenados.
+• Tag: Cuando se crea una versión concreta en un momento determinado del desarrollo de un proyecto
+se le pone una etiqueta, de forma que se pueda localizar y recuperar en cualquier momento.
+• Tronco (trunk): Línea principal de desarrollo de un proyecto.
+• Rama o ramificar (branch): Las ramas son copias de archivos , carpetas o proyectos. Cuando se crea
+una rama se crea una bifurcación del proyecto y se crean dos líneas de desarrollo.
+• Checkout: Crear una copia de trabajo del proyecto, o de archivos y carpetas del repositorio en el
+equipo local. Por defecto se obtiene la última versión, aunque también se puede indicar una versión
+concreta.
+• Commit o checkin: Se realiza commit cuando se confirman los cambios realizados en local para
+integrarlos al repositorio.
+• Merge: Una fusión consiste en unir los cambios realizados sobre uno o varios archivos en una única
+revisión.
+ Conflicto: Ocurre en situaciones en la que el sistema no es capaz de fusionar los cambios (por
+ejemplo, dos usuarios han cambiado la misma línea en el mismo momento). Este usuario deberá́
+resolver el conflicto combinando los cambios o eligiendo uno de ellos.
