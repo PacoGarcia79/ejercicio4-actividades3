@@ -1,5 +1,5 @@
 1. Introducción
-Los desarroyadores necesitan gestionar el código de los proyectos en los cuales están trabajando.
+Los desarrolladores necesitan gestionar el código de los proyectos en los cuales están trabajando.
 Nos encontramos ante una realidad con escenarios en los que muchos profesionales incorporan código al
 proyecto, un código vivo, que puede cambiar una vez dado por finalizado o bien por peticiones de los clientes,
 adaptación al mercado, corrección de errores… Con estos cambios se van creando versiones, pero ¿cómo
@@ -29,6 +29,12 @@ concreta.
 integrarlos al repositorio.
 • Merge: Una fusión consiste en unir los cambios realizados sobre uno o varios archivos en una única
 revisión.
- Conflicto: Ocurre en situaciones en la que el sistema no es capaz de fusionar los cambios (por
+• Conflicto: Ocurre en situaciones en la que el sistema no es capaz de fusionar los cambios (por
 ejemplo, dos usuarios han cambiado la misma línea en el mismo momento). Este usuario deberá́
 resolver el conflicto combinando los cambios o eligiendo uno de ellos.
+3. GIT
+Git es un sistema de control de versiones distribuido que tiene como objetivo mejorar la
+velocidad de desarrollo de los proyectos, facilitar el trabajo en equipo y llevar el control de cambios,
+todo ello con un diseño simple.
+En Git, la forma que se almacena los datos recibe el nombre de snapshot o instantánea. Cada
+instantánea almacena el estado del código en un momento determinado.
